@@ -1,3 +1,43 @@
-﻿body {
-    background-color: lightblue
-}
+﻿body{
+        background-color: lightblue;
+        margin: 0;
+        padding: 40px;
+        font-family: Arial, sans-serif;
+    }
+
+    .section {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 80px;
+    }
+
+    .logo {
+        flex: 0 0 250px;
+    }
+
+    .logo img {
+        max-width: 500px;
+        height: auto;
+    }
+
+    .content {
+        padding-left: 50px;
+        flex: 1;
+    }
+
+    .content h2 {
+        margin: 0 0 10px 0;
+    }
+
+    .content .date {
+        margin-bottom: 15px;
+    }
+
+    .content ul {
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    .content li {
+        margin-bottom: 10px;
+    }
