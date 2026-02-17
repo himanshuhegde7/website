@@ -1,7 +1,7 @@
 ﻿body{
         background-color: lightblue;
         margin: 0;
-        padding: 40px;
+        /* padding: 40px; */
         font-family: Arial, sans-serif;
     }
 
@@ -10,11 +10,27 @@
         align-items: flex-start;
         margin-bottom: 80px;
     }
-
-    .logo {
-        flex: 0 0 250px;
+    
+    .navbar {
+    background-color: #0d47a1; /* Solid blue */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+    }
+    .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 16px;
     }
 
+    .logo {
+        padding-left: 50px;
+        padding-top: 50px;
+        flex: 0 0 250px;
+    }
     .logo img {
         max-width: 500px;
         height: auto;
@@ -22,22 +38,49 @@
 
     .content {
         padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
         flex: 1;
     }
-
     .content h2 {
         margin: 0 0 10px 0;
     }
-
     .content .date {
         margin-bottom: 15px;
     }
-
     .content ul {
         padding-left: 20px;
         margin: 0;
     }
-
     .content li {
         margin-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        padding: 40px;
+    }
+    .text {
+        margin-left: 60px;
+        max-width: 700px;
+    }
+    .contact {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .contact img {
+        vertical-align: middle;
+    }
+
+    .contact div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
     }
