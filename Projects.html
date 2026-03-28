@@ -16,7 +16,6 @@
             <a href="index.html">Home</a>
             <a href="Work_experience.html">Work Experience</a>
             <a href="Projects.html">Projects</a>
-            <a href="Mechanical_engineering_projects.html">Mechanical Engineering projects</a>
         </nav>
 </header>
 
@@ -24,16 +23,33 @@
     <div class="section">
         <div class="logo">
             <img src="Images/pipeline.png" alt="Pipeline" width="450" height="225">
-            <img src="Images/dashboard.png" alt="3DX Apps" width="450" height="225">
+            <img src="Images/dashboard.png" alt="Dashboard" width="450" height="225">
         </div>
         <div class="content">
-            <h2>SALES DATA MERGING AND ANALYSIS AFTER A NEW COMPANY ACQUISITION </h2>
+            <h2>ELT PIPELINE - AUTOMATED SALES DATA INTEGRATION </h2>
+            <ul>
+                <li>Skills: ADLS Gen 2, Amazon S3, AzureSQL, Azure Data Factory, Azure Databricks, PySpark</li>
+                <li>Ingested daily sales dataset (csv) from Amazon S3 into ADLS Gen 2</li>
+                <li>The new data is validated, cleaned and integrated into the Data Lake (ADLS)</li>
+                <li>The data is analysed for business insights</li>
+                <li>Automated this process with Azure Data Factory pipelines and Databricks notebook</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="logo">
+            <img src="Images/pipeline.png" alt="Pipeline" width="450" height="225">
+            <img src="Images/dashboard.png" alt="Dashboard" width="450" height="225">
+        </div>
+        <div class="content">
+            <h2>ETL PIPELINE FOR DATA INTEGRATION AND ANALYSIS, POST COMPANY ACQUISITION </h2>
             <ul>
                 <li>Skills: Databricks, AWS S3, PySpark, SQL</li>
                 <li>Ingested datasets (csv) from parent and child companies from S3 to Databricks</li>
-                <li>Cleaned and merged the datasets from A and B</li>
-                <li>Dashboard with business insights</li>
-                <li>Created a pipeline for incremental sales data in the future</li>
+                <li>Cleaned and integrated the datasets from the companies</li>
+                <li>Created a Databricks dashboard with business insights</li>
+                <li>Created a Databricks pipeline for incremental sales data in the future</li>
             </ul>
         </div>
     </div>
@@ -43,28 +59,30 @@
             <!--img src="Images/TAMU_MEEN.jpg" alt="TAMU Logo" width="450" height="225"-->
         </div>
         <div class="content">
-            <h2>CREDIT SCORE CALCULATION FROM CUSTOMER DATA OF A CREDIT UNION</h2>
+            <h2>CREDIT SCORING PIPELINE BUILT ON CREDIT UNION’S CUSTOMER DATA (ON PREMISE)</h2>
             <ul>
-                <li>Skills: ETL, PySpark, SQL, Hive</li>
-                <li>Ingested customer datasets (csv), on premise</li>
-                <li>Cleaned and prepared the datasets, created Hive tables for easy future access</li>
+                <li>Skills: PySpark, SQL, Hive, ETL</li>
+                <li>Ingested customer datasets (csv)</li>
+                <li>Cleaned and prepared the datasets, created Hive tables for downstream access and analytics</li>
                 <li>Calculated credit scores based on multiple columns</li> 
             </ul>
         </div>
     </div>
-
     <div class="section">
         <div class="logo">
-            <!--img src="Images/esiLogo.png" alt="ESI Logo" width="450" height="300"-->
+            <!--img src="Images/TAMU_MEEN.jpg" alt="TAMU Logo" width="450" height="225"-->
         </div>
         <div class="content">
-            <h2>MS THESIS: SIMULATION OF SELF PIERCING RIVET PROCESS</h2>
+            <h2>MECHATRONIC SOCCER PENALTY KICK SHOOTER</h2>
             <ul>
-                <li>Skills: Linux</li> 
-                <li>Ran the simulation jobs on High Performance Computing cluster</li>
-                <li>Modeled and simulated on SolidWorks, ANSYS</li>
+                <li>Skills: C, Data Engineering</li>
+                <li>The objective is for a ‘player’ dummy to shoot a soccer ball towards a ‘target’ with varying position</li>
+                <li>The IR sensor’s and motor’s data is ingested and processed, to calculate the angle and distance to the target</li>
+                <li>The orientation and ‘kick’ of the player dummy is carried out by stepper and servo motors</li>
+                <li></li>Programmed on Arduino using C</li>
             </ul>
         </div>
     </div>
+
 </body>
 </html>
