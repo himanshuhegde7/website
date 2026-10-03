@@ -2,13 +2,13 @@
         background-color: lightblue;
         margin: 0;
         /* padding: 40px; */
-        font-family: Arial, sans-serif;
+        font-family: "Segoe UI", Arial, sans-serif;
     }
 
     .section {
         display: flex;
         align-items: flex-start;
-        margin-bottom: 80px;
+        margin-bottom: 25px;
     }
     
     .navbar {
@@ -19,11 +19,14 @@
     align-items: center;
     padding: 50px 50px;
     }
+    .nav-links {
+    font-size: 18px;
+    }
     .nav-links a {
     color: white;
     text-decoration: none;
     margin-left: 30px;
-    font-size: 16px;
+    font-size: 18px;
     }
 
     .logo {
@@ -48,7 +51,35 @@
     .content .date {
         margin-bottom: 15px;
     }
-    .content ul {
+    .meta-row.date {
+        margin-bottom: 0;
+    }
+    .meta-row.date-last {
+        margin-bottom: 15px;
+    }
+    .meta-row.skills {
+        margin-bottom: 15px;
+    }
+        .meta-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .meta-row + .meta-row {
+            margin-top: 4px;
+        }
+        .meta-icon {
+            width: 14px;
+            height: 14px;
+            flex-shrink: 0;
+            color: #333;
+        }
+        .meta-icon path,
+        .meta-icon circle,
+        .meta-icon rect {
+            stroke: currentColor;
+        }
+        .content ul {
         padding-left: 20px;
         margin: 0;
     }
