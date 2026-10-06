@@ -101,17 +101,18 @@
     .contact {
         margin-top: 20px;
         display: flex;
-        align-items: center;
-        gap: 20px;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
     }
 
-    .contact img {
-        vertical-align: middle;
-    }
-
+    .contact a,
     .contact div {
         display: flex;
         align-items: center;
         gap: 8px;
+    }
+
+    .contact img {
+        vertical-align: middle;
     }
